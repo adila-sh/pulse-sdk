@@ -1,8 +1,15 @@
 {
-  "name": "@adila/pulse-sdk",
+  "name": "@adila-sh/pulse-sdk",
   "version": "0.1.0",
   "description": "Isomorphic (browser + Node) client SDK for the Adila Pulse analytics, feature-flag, tracing and session-replay API.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adila-sh/pulse-sdk.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
