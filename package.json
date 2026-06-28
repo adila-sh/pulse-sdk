@@ -1,5 +1,5 @@
 {
-  "name": "@adila/pulse-js",
+  "name": "@adila/pulse-sdk",
   "version": "0.1.0",
   "description": "Isomorphic (browser + Node) client SDK for the Adila Pulse analytics, feature-flag, tracing and session-replay API.",
   "type": "module",
@@ -12,7 +12,10 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
